@@ -1,0 +1,21 @@
+@media (max-width: 1200px) {
+}
+@media (max-width: 992px) {
+}
+@media (max-width: 768px) {
+  h1 {
+    font-size: 45px;
+  }
+
+  p {
+    font-size: 19px;
+  }
+
+  .btn {
+    padding: 12px 24px;
+  }
+
+  #quota {
+    height: 50px;
+  }
+}

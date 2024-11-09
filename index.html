@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 8</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/mq.css">
+  </head>
+  <body>
+    <div
+      class="container d-flex justify-content-center align-items-center vh-100"
+    >
+      <div class="text-center mb-5">
+        <h1 class="fw-bolder">Quote of the Day</h1>
+        <p class="fs-4">Press the button below to receive a random quote!</p>
+        <button
+          type="button"
+          onclick="addQuota()"
+          class="btn btn-secondary mb-4"
+        >
+          New Quota
+        </button>
+        <div id="quota"></div>
+      </div>
+    </div>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
